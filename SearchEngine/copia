@@ -5,7 +5,6 @@
     <title>SearchEngine</title>
     <script src="Files/SearchEngine.js" type="text/javascript"></script>
     <script src="Files/ha.js" type="text/javascript"></script>
-    <script src="Files/troca.js" type="text/javascript"></script>
     <link rel="stylesheet" href="Files/SearchEngine.css">
     <link rel="icon" href="/Files/detective.jpeg">
   </head>
@@ -16,10 +15,9 @@
         <input autocomplete="off" formnovalidate size="40px" type="text" id="q" placeholder="Digite aqui">
         <label onclick="Hyde()" for="q"><img draggable="true" width="50px" height="50px" src="Files/pngwing.png" alt="Loli"></label>
         <br><br>
-
         <table align='center'>
           <tr>
-            <td><button onclick="Pesquisa()" id="ex">Pesquisas</button></td>
+            <td><button id="ex">Pesquisas</button></td>
             <td><button id="ex">Jogos</button></td>
             <td><button id="ex">Livros</button></td>
             <td><button id="ex">Series/Filmes</button></td>
@@ -27,7 +25,7 @@
           </tr>
         </table>
         <div class="space"></div>
-        <table id="pesquisa" hidden align="center">
+        <table align="center">
         <tr>
           <td><button onclick="DuckGo()">DuckGo</button></td>
 
@@ -41,26 +39,53 @@
         <tr>
           <td><button onclick="Brave()">Brave</button></td>
 
-          <td><button onclick="Bing()">Bing</button></td>
+          <td><button onclick="GitHub()">GitHub</button></td>
 
           <td><button onclick="GoogleScholar()">Scholar Google</button></td>
 
-          <td><button onclick="DogPile()">DogPile</button></td>
+          <td><button onclick="Youtube()">Youtube</button></td>
         </tr>
         <tr>
-          <td><button onclick="WebOpedia()">WebOpedia</button></td>
+          <td><button onclick="Odysee()">Odysee</button></td>
 
           <td><button onclick="WebCrawler()">WebCrawler</button></td>
 
-          <td><button onclick="Archive()">Archive</button></td>
+          <td><button onclick="Pdfdrive()">Pdfdrive</button></td>
 
-          <td><button onclick="OpenVerse()">OpenVerse</button></td>
+          <td><button onclick="ThePirateBay()">ThePirateBay</button></td>
+        </tr>
+        <tr>
+          <td><button onclick="LibGen()">LibGen</button></td>
+
+          <td><button onclick="WikiBooks()">WikiBooks</button></td>
+
+          <td><button onclick="CrackedGames()">Cracked-Games</button></td>
+
+          <td><button onclick="SkidrowGames()">Skidrow-Games</button></td>
+
         </tr>
         </table>
-
-        <table>
-          
+        <table id="xxx" hidden align="left">
+          <tr>
+            <td><button onclick="PornHub()">PornHub</button></td>
+          </tr>
+          <tr>
+            <td><button onclick="Xvideos()">Xvideos</button></td>
+          </tr>
+          <tr>
+            <td><button onclick="MundoHentai()">Mundo Hentai</button></td>
+          </tr>
+          <tr>
+            <td><button onclick="Rule34()">Rule 34</button></td>
+          </tr>
+          <tr>
+            <td><button onclick="BestGore()">BestGore</button></td>
+          </tr>
+          <tr>
+            <td><button onclick="RapeLust()">RapeLust</button></td>
+          </tr>
         </table>
+
       </form>
     </div>
   </body>

@@ -1,11 +1,3 @@
-function Hyde(){
-  var a = document.getElementById('q').value;
-  if(a === '123234345456567678789890'){
-    document.getElementById('xxx').hidden = (false);
-  } else {
-    alert("Não toque a criança");
-  }
-}
 function DuckGo(){
   var a = document.getElementById('q').value;
   a = a.replace(/ /gi, '+');
@@ -120,4 +112,29 @@ function RapeLust(){
   var a = document.getElementById('q').value;
   a = a.replace(/ /gi, '_');
   window.open('https://rapelust.com/search/' + a);
+}
+function Bing(){
+  var a = document.getElementById('q').value;
+  a = a.replace(/ /gi, '_');
+  window.open('https://www.bing.com/search?q=' + a);
+}
+function DogPile(){
+  var a = document.getElementById('q').value;
+  a = a.replace(/ /gi, '_');
+  window.open('https://www.dogpile.com/serp?q=' + a);
+}
+function WebOpedia() {
+  var a = document.getElementById('q').value;
+  a = a.replace(/ /gi, '_');
+  window.open('https://www.webopedia.com/?s=' + a);
+}
+function Archive() {
+  var a = document.getElementById('q').value;
+  a = a.replace(/ /gi, '_');
+  window.open('https://archive.org/search.php?query=' + a);
+}
+function OpenVerse() {
+  var a = document.getElementById('q').value;
+  a = a.replace(/ /gi, '_');
+  window.open('https://wordpress.org/openverse/search/?q=' + a);
 }

@@ -6,3 +6,15 @@ body{
 label{
   background-image: url("pngwing.png");
 }
+.space{
+  margin-bottom: 10px;
+}
+button{
+  background: linear-gradient(0, aqua, aquamarine);
+  border-color: transparent;
+  border-radius: 6px;
+}
+#ex{
+  background: linear-gradient(0, LawnGreen, GreenYellow);
+  border-color: transparent;
+}
