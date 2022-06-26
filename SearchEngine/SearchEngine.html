@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="Files/SearchEngine.css">
     <link rel="icon" href="/Files/detective.jpeg">
   </head>
-  <body>
+  <body onload="permutation()">
     <div class="container" style="text-align: center;">
       <form onsubmit=";return false" novalidate class="" method="GET" id="search-form">
         <label onclick="Hyde()" for="q"><img draggable="true" width="50PX" height="50px" src="Files/pngwing.png" alt="Loli"></label>
@@ -19,11 +19,11 @@
 
         <table align='center'>
           <tr>
-            <td><button onclick="Pesquisa()" id="ex">Pesquisas</button></td>
-            <td><button id="ex">Jogos</button></td>
-            <td><button id="ex">Livros</button></td>
-            <td><button id="ex">Series/Filmes</button></td>
-            <td><button id="ex">Rede sociais</button></td>
+            <td><button onclick="Pesquisa()" id="um" class="ex">Pesquisas</button></td>
+            <td><button onclick="Jogos()" id="dois" class="ex">Jogos</button></td>
+            <td><button onclick="Livros()" id="tres" class="ex">Livros</button></td>
+            <td><button onclick="SeriesFilmes()" id="quatro" class="ex">Series/Filmes</button></td>
+            <td><button onclick="RedeSociais()" id="cinco" class="ex">Rede sociais</button></td>
           </tr>
         </table>
         <div class="space"></div>
@@ -58,9 +58,67 @@
         </tr>
         </table>
 
-        <table>
-          
+        <table id="jogos" hidden align="center">
+          <tr>
+            <td><button onclick="ThePirateBay()">ThePirateBay</button></td>
+            <td><button onclick="CrackedGames()">CrackedGames</button></td>
+            <td><button onclick="SkidrowGames()">SkidrowGames</button></td>
+            <td><button onclick="GOG()">GOG Games</button></td>
+          </tr>
+          <tr>
+            <td><button onclick="Steam()">Steam</button></td>
+            <td><button onclick="RepackMechanics()">RepackMechanics</button></td>
+            <td><button onclick="FitGirl()">FitGirl</button></td>
+          </tr>
         </table>
+
+        <table id="livros" hidden align='center'>
+          <tr>
+            <td><button onclick="ThePirateBay()">ThePirateBay</button></td>
+            <td><button onclick="Pdfdrive()">PdfDrive</button></td>
+            <td><button onclick="LibGen()">LibGen</button></td>
+            <td><button onclick="WikiBooks()">WikiBooks</button></td>
+          </tr>
+          <tr>
+            <td><button onclick="LeLivros()">LeLivros</button></td>
+            <td><button onclick="BrMangas()">BrMangas</button></td>
+          </tr>
+        </table>
+
+        <table id="seriesfilmes" hidden align='center'>
+          <tr>
+            <td><button onclick="FilmesOnline()">FilmesOnline</button></td>
+            <td><button onclick="OverFlix()">OverFlix</button></td>
+            <td><button onclick="BaixarBiz()">Baixar.Biz</button></td>
+            <td><button onclick="CentralFlix()">CentralFlix</button></td>
+          </tr>
+          <tr>
+            <td><button onclick="MeusAnimes()">MeusAnimes</button></td>
+            <td><button onclick="CrunchyRoll()">CrunchyRoll</button></td>
+            <td><button onclick="Goyabu()">Goyabu</button></td>
+            <td><button onclick="AnimeFire()">AnimeFire</button></td>
+          </tr>
+          <tr>
+            <td><button onclick="JustWatch()">JustWatch</button></td>
+            <td><button onclick="Vizer()">Vizer</button></td>
+          </tr>
+        </table>
+
+        <table id="redessociais" hidden align='center'>
+          <tr>
+            <td><button onclick="Youtube()">Youtube</button></td>
+            <td><button onclick='Odysee()'>Odysee</button></td>
+            <td><button onclick="Facebook()">Facebook</button></td>
+            <td><button onclick="Instagram()">Instagram</button></td>
+          </tr>
+        </table>
+
+        <table id="xxx" hidden align='center'>
+          <tr>
+            <td></td>
+          </tr>
+        </table>
+
       </form>
     </div>
   </body>

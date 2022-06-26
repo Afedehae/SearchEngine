@@ -120,21 +120,107 @@ function Bing(){
 }
 function DogPile(){
   var a = document.getElementById('q').value;
-  a = a.replace(/ /gi, '_');
+  a = a.replace(/ /gi, '+');
   window.open('https://www.dogpile.com/serp?q=' + a);
 }
 function WebOpedia() {
   var a = document.getElementById('q').value;
-  a = a.replace(/ /gi, '_');
+  a = a.replace(/ /gi, '+');
   window.open('https://www.webopedia.com/?s=' + a);
 }
 function Archive() {
   var a = document.getElementById('q').value;
-  a = a.replace(/ /gi, '_');
+  a = a.replace(/ /gi, '+');
   window.open('https://archive.org/search.php?query=' + a);
 }
 function OpenVerse() {
   var a = document.getElementById('q').value;
-  a = a.replace(/ /gi, '_');
+  a = a.replace(/ /gi, '+');
   window.open('https://wordpress.org/openverse/search/?q=' + a);
+}
+function GOG(){
+  var a = document.getElementById('q').value;
+  window.open('https://www.gog.com/en/games?query=' + a + '&order=desc:score');
+}
+function Steam() {
+  var a = document.getElementById('q').value;
+  a = a.replace(/ /gi, '+');
+  window.open('https://store.steampowered.com/search/?term=' + a);
+}
+function RepackMechanics() {
+  var a = document.getElementById('q').value;
+  a = a.replace(/ /gi, '+');
+  window.open('https://repack-mechanics.com/?do=search&subaction=search&story=' + a);
+}
+function FitGirl() {
+  var a = document.getElementById('q').value;
+  a = a.replace(/ /gi, '+');
+  window.open('https://fitgirl-repacks.to/search/' + a);
+}
+function LeLivros() {
+  var a = document.getElementById('q').value;
+  a = a.replace(/ /gi, '+');
+  window.open('https://lelivros.love/?x=0&y=0&s=' + a);
+}
+function FilmesOnline() {
+  var a = document.getElementById('q').value;
+  a = a.replace(/ /gi, '+');
+  window.open('https://filmesonlinegratisbr.xyz/list/filmes?s=' + a);
+}
+function OverFlix() {
+  var a = document.getElementById('q').value;
+  a = a.replace(/ /gi, '+');
+  window.open('https://overflix.online/?s=' + a);
+}
+function BaixarBiz() {
+  var a = document.getElementById('q').value;
+  a = a.replace(/ /gi, '+');
+  window.open('https://baixar.biz/?s=' + a);
+}
+function CentralFlix() {
+  var a = document.getElementById('q').value;
+  a = a.replace(/ /gi, '+');
+  window.open('https://centralflix.net/?s=' + a);
+}
+function MeusAnimes() {
+  var a = document.getElementById('q').value;
+  a = a.replace(/ /gi, '+');
+  window.open('https://meusanimes.net/?s=' + a);
+}
+function CrunchyRoll() {
+  var a = document.getElementById('q').value;
+  a = a.replace(/ /gi, '+');
+  window.open('https://www.crunchyroll.com/pt-br/search?q=' + a);
+}
+function Goyabu() {
+  var a = document.getElementById('q').value;
+  a = a.replace(/ /gi, '+');
+  window.open('https://goyabu.vip/?s=' + a);
+}
+function AnimeFire() {
+  var a = document.getElementById('q').value;
+  a = a.replace(/ /gi, '+');
+  window.open('https://animefire.online/?s=' + a);
+}
+function JustWatch() {
+  var a = document.getElementById('q').value;
+  a = a.replace(/ /gi, ' ');
+  window.open('https://www.justwatch.com/pt/busca?q=' + a);
+}
+function Vizer() {
+  var a = document.getElementById('q').value;
+  window.open('https://vizer.tv/pesquisar/' + a);
+}
+function BrMangas() {
+  var a = document.getElementById('q').value;
+  a = a.replace(/ /gi, '+');
+  window.open('https://www.brmangas.com/?s=' + a);
+}
+function Facebook() {
+  var a = document.getElementById('q').value;
+  window.open('https://www.facebook.com/search/top/?q=' + a);
+}
+function Instagram() {
+  var a = document.getElementById('q').value;
+  window.open('https://www.instagram.com/explore/search/keyword/?q=' + a);
 }

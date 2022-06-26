@@ -1,5 +1,5 @@
 body{
-  background-image: url("paisagem4.jpeg");
+  background-image: url("BackgroundImg/paisagem4.jpeg");
   background-size: cover;
   background-color: white;
 }
@@ -14,7 +14,7 @@ button{
   border-color: transparent;
   border-radius: 6px;
 }
-#ex{
+.ex{
   background: linear-gradient(0, LawnGreen, GreenYellow);
   border-color: transparent;
 }

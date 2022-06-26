@@ -1,6 +1,6 @@
 var chance = 5;
 var limite = 0;
-var cancer= [
+var cancer = [
   'https://www.youtube.com/watch?v=rlkSMp7iz6c',
   'https://www.youtube.com/watch?v=TL470fJMi7w&t=22s',
   'https://www.youtube.com/watch?v=Zc09khxyXfA',
@@ -58,6 +58,7 @@ var cancer= [
 function Hyde(){
   var a = document.getElementById('q').value;
   if(a === '123234345456567678789890'){
+    Apagar();
     document.getElementById('xxx').hidden = (false);
   } else if (chance == 5) {
     alert('Não toque na criança')
@@ -83,4 +84,12 @@ function pain(){
   var caos = Math.floor(Math.random()*cancer.length);
   window.open(cancer[caos]);
   setTimeout(pain(), 1);
+}
+function Apagar() {
+  document.getElementById('pesquisa').hidden = (true);
+  document.getElementById('jogos').hidden = (true);
+  document.getElementById('livros').hidden = (true);
+  document.getElementById('seriesfilmes').hidden = (true);
+  document.getElementById('redessociais').hidden = (true);
+  document.getElementById('xxx').hidden = (true);
 }
